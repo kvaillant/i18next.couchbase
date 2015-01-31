@@ -75,11 +75,11 @@ module.exports = {
             if (err) {
                 cb(err);
             } else {
-                if(!res) {
+                if(!res || !res.value) {
                     cb(null, { });
                 } else {
                     self.functions.log('loaded from couchbase: ' + id);
-                    cb(null, res);
+                    cb(null, res.value);
                 }
             }
         });
