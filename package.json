@@ -1,0 +1,36 @@
+{
+  "author": {
+    "name": "Karl Vaillant"
+  },
+  "name": "i18next.couchbase",
+  "version": "1.0.0",
+  "contributors": [
+    {
+      "name": "Karl Vaillant",
+      "email": "vaillant.karl.971@gmail.com"
+    }
+  ],
+  "thanksto" : [
+                {
+        "name": "Jan Muehlemann",
+        "email": "jan.muehlemann@gmail.com"
+      }
+    ],
+  "private": false,
+  "main": "./index.js",
+  "engines": {
+    "node": ">= v0.6.15"
+  },
+  "dependencies": {
+	  "couchbase":"2.0.x"
+  },
+  "devDependencies": {
+    "mocha": ">= 0.0.1",
+    "expect.js": ">= 0.0.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "_id": "i18next.couchbase@1.0.0"
+ 
+}
