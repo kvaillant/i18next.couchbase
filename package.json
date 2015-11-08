@@ -22,7 +22,7 @@
     "node": ">= v0.6.15"
   },
   "dependencies": {
-  	 "couchbase": "^2.1.2",
+  	 "couchbase": "^2.1.2"
   },
   "devDependencies": {
     "mocha": ">= 0.0.1",
