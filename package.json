@@ -3,7 +3,20 @@
     "name": "Karl Vaillant"
   },
   "name": "i18next.couchbase",
-  "version": "1.0.2",
+  "version": "2.0.0",
+  "description": "i18next node.js backend layer for i18next >=2.0.0 using couchbase",
+  "keywords": [
+    "i18next",
+    "i18next-backend",
+    "couchbase"
+  ],
+  "bugs": {
+    "url": "https://github.com/kvaillant/i18next.couchbase/issues/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kvaillant/i18next.couchbase"
+  },
   "contributors": [
     {
       "name": "Karl Vaillant",
@@ -17,7 +30,7 @@
       }
     ],
   "private": false,
-  "main": "./index.js",
+  "main": "./lib/index.js",
   "engines": {
     "node": ">= v0.6.15"
   },
@@ -31,6 +44,6 @@
   "scripts": {
     "test": "mocha"
   },
-  "_id": "i18next.couchbase@1.0.2"
+  "_id": "i18next.couchbase@2.0.0"
  
 }
