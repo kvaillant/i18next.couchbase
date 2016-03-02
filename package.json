@@ -38,8 +38,6 @@
   	 "couchbase": "^2.1.2"
   },
   "devDependencies": {
-    "mocha": ">= 0.0.1",
-    "expect.js": ">= 0.0.1"
   },
   "scripts": {
     "test": "mocha"
