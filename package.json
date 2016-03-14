@@ -3,7 +3,7 @@
     "name": "Karl Vaillant"
   },
   "name": "i18next.couchbase",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "i18next node.js backend layer for i18next >=2.0.0 using couchbase",
   "keywords": [
     "i18next",
