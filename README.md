@@ -30,7 +30,9 @@ As with all modules you can either pass the constructor function (class) to the 
   cluster: 'http://localhost:8091',
   bucket: 'i18next',
   password: '',
-  resCollectionName: 'resources'
+  resCollectionName: 'resources',
+  connectionTimeout: 10000,
+  operationTimeout: 10000
 }
 ```
 
