@@ -1,6 +1,6 @@
 # Introduction
 
-This is a i18next backend to be used node.js. It will load resources from a [Chouchbase](https://www.couchbase.com/) database.
+This is a i18next backend to be used node.js. It will load resources from a [Couchbase](https://www.couchbase.com/) database.
 
 # Getting started
 
